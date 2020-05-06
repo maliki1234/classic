@@ -1,0 +1,55 @@
+
+#home{
+    background: url('13.jpg');
+    // width: 100%;
+    height: 100vh;
+    background-position: center right;
+    .home-overlay{
+        background: linear-gradient(to top right , #1112, #527a, #005b);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+    h3{
+        // font-family: ;
+        font-family:  "Montserrat SemiBold", Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 60px;
+        width: 80%;
+        margin-left: 10px;
+        color: #fff;
+    }
+    p{
+        font-family: "GG Eesti Pro Text Thin", Helvetica, sans-serif;
+        font-size: 15px;
+        color: #ccc;
+        width: 79%;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .home-content-box-btn-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // grid-gap: 2px;
+        place-items: center;
+        justify-items: center;
+        width: 60%;
+        margin: auto;
+        margin: 30px auto;
+    }
+    .btn{
+        display: inline-block;
+        font-size: 12px;
+        border: 0.5px solid #aaa;
+        border-radius: 3px;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 22px;
+    }
+    .btn-read{
+        background: #1ca;
+    }
+}
+

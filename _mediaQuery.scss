@@ -1,0 +1,20 @@
+$mediaMaxWidth: 1260px;
+$mediaBp1Width: 770px;
+$phone: 480px;
+$mediaLargePhones: 640px;
+$small-phone: 320px;
+
+@mixin media-query($width) {
+    @media screen and (max-width: $width){
+        @content;
+    }
+}
+
+
+
+
+@mixin min-media-query($width) {
+    @media screen and(min-width: $width){
+        @content;
+    }
+}

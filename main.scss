@@ -1,0 +1,30 @@
+@import 'mediaQuery';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@import 'navigation';
+@import 'home';
+@import 'about';
+@import 'about';
+@import 'service';
+
+
+
+// .toogle , .bar2{
+// transform: rotate(45deg translate(-5px, 6px));
+// }
+
+
+
+// HOME CODE
+
+
+
+#media{
+    height: 100vh;
+}
